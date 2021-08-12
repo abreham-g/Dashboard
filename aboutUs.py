@@ -10,7 +10,6 @@ def app():
     col1, col2, col3 = st.columns(3)
     with col1:
         st.header("Zelalem")
-        st.image("https://static.streamlit.io/examples/cat.jpg")
 
         st.text_area('Zelalem', '''
         ...     It was the best of times, it was the worst of times, it was
@@ -34,50 +33,37 @@ def app():
         ...     ''')
 
     with col3:
-        st.header("Binyam Sisay")
-        st.image("https://static.streamlit.io/examples/cat.jpg")
+        st.header("Bereket")
 
-        st.text_area('Binyam Sisay', '''
-        ...     It was the best of times, it was the worst of times, it was
-        ...     the age of wisdom, it was the age of foolishness, it was
-        ...     the epoch of belief, it was the epoch of incredulity, it
-        ...     was the season of Light, it was the season of Darkness, it
-        ...     was the spring of hope, it was the winter of despair, (...)
-        ...     ''')
 
     col4, col5, col6 = st.columns(3)
     with col4:
-        st.header("col4")
-        st.image("https://static.streamlit.io/examples/cat.jpg")
-
-        st.text_area('col4', '''
-        ...     It was the best of times, it was the worst of times, it was
-        ...     the age of wisdom, it was the age of foolishness, it was
-        ...     the epoch of belief, it was the epoch of incredulity, it
-        ...     was the season of Light, it was the season of Darkness, it
-        ...     was the spring of hope, it was the winter of despair, (...)
-        ...     ''')
+        st.header("Njoki")
 
     with col5:
-        st.header("col5")
-        st.image("https://static.streamlit.io/examples/cat.jpg")
-
-        st.text_area('col5', '''
-        ...     It was the best of times, it was the worst of times, it was
-        ...     the age of wisdom, it was the age of foolishness, it was
-        ...     the epoch of belief, it was the epoch of incredulity, it
-        ...     was the season of Light, it was the season of Darkness, it
-        ...     was the spring of hope, it was the winter of despair, (...)
-        ...     ''')
+        st.header("Bezawit")
 
     with col6:
-        st.header("col6")
-        st.image("https://static.streamlit.io/examples/cat.jpg")
+        st.header("Leul")
 
-        st.text_area('col6', '''
-        ...     It was the best of times, it was the worst of times, it was
+    col7, col8, col9 = st.columns(3)
+
+    with col7:
+        st.header("Binyam Sisay")
+        st.image("images/binyam.jpg")
+
+        st.text_area('Binyam Sisay', '''
+        ...    I am an Electrical and Computer Engineering graduate form Addis Ababa University Institute of Technology (AAiT). I live in Addis Ababa, Ethiopia.
         ...     the age of wisdom, it was the age of foolishness, it was
-        ...     the epoch of belief, it was the epoch of incredulity, it
-        ...     was the season of Light, it was the season of Darkness, it
-        ...     was the spring of hope, it was the winter of despair, (...)
+        ...     I helped the project in Setting up team git repository 
+        ...     projects assignment,DVC, MLFlow, and CML integration,
+        ...     I also helped the team in providing with building a beautiful dashboard 
         ...     ''')
+
+
+    with col8:
+        st.header("Maelaf Estiphanos")
+
+    with col9:
+        st.header("Leul")
+
