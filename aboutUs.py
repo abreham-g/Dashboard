@@ -7,6 +7,8 @@ def app():
 
     ## Team members
     """)
+
+    
     col1, col2, col3 = st.columns(3)
     with col1:
         st.header("Zelalem")
@@ -63,7 +65,13 @@ def app():
 
     with col8:
         st.header("Maelaf Estiphanos")
+        st.image("images/mafi.jpg")
+
+        st.text_area('Maelaf', '''
+        ...    MLOPS engineer
+        ...     ''')
 
     with col9:
-        st.header("Leul")
+        st.header("Aberaham")
+
 
